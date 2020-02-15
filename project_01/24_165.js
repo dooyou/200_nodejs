@@ -1,10 +1,6 @@
-// body parser 미들웨어
-
-// 모듈 불러오기
 const express = require('express');
 const bodyParser = require('body-parser');
 
-// express 객체 생성
 const app = express();
 
 // application/x=www-form-urlencoded 파싱
