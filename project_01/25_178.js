@@ -3,10 +3,10 @@ const mysql = require('mysql');
 
 // 연결할 DB 정보입력
 const connection = mysql.createConnection({
-  host: 'adidas03315.cafe24.com',
-  user: 'adidas03315',
-  password: 'cari8087!',
-  database: 'adidas03315',
+  host: '.cafe24.com',
+  user: '',
+  password: '',
+  database: '',
   port: '3306',
 });
 
