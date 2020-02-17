@@ -9,8 +9,8 @@ const transporter = nodemailer.createTransport({
 });
 // setup email data with unicode symbols
 const mailOptions = {
-  from : 'emilykim0331@gmail.com',
-  to : 'emilykim0331@gmail.com',
+  from : '@gmail.com',
+  to : '@gmail.com',
   subject : 'Hello attachment',
   html : '<h1>Hello Attachment</h1><a href="http://www.infopub.co.kr">' +
   '<p><img src="http://www.infopub.co.kr/pdspool/common/main_top/2016-11-02.jpg"/></p></a>',

@@ -15,14 +15,14 @@ function sendMail(arHeadline){
   const transporter = nodemailer.createTransport({
     service : 'Gmail',
     auth : {
-      user : 'emilykim0331@gmail.com',
-      pass : 'Strawberry31!',
+      user : '@gmail.com',
+      pass : '',
     },
   });
 
   const mailOptions = {
-    from : 'emilykim0331@gmail.com',
-    to : 'emilykim0331@gmail.com',
+    from : '@gmail.com',
+    to : '@gmail.com',
     subject : `${date.toLocaleDateString()} Today News`,
     html : `<h1>IT/과학 실시간 뉴스 헤드라인</h1><h2>${arHeadline}</h2>` +
     `<a href=""><p><img src='' ></p></a>`,
